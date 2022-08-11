@@ -113,6 +113,7 @@ function App() {
           <Button autoFocus color="danger"/>
         </div>
       </div>
+      <footer>Mba Angel</footer>
     </div>
   );
 }
