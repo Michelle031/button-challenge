@@ -113,7 +113,7 @@ function App() {
           <Button autoFocus color="danger"/>
         </div>
       </div>
-      <footer>Mba Angel</footer>
+      <footer><p>created by <b>Michelle031</b> - devChallenges.io </p></footer>
     </div>
   );
 }
