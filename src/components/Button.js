@@ -29,7 +29,7 @@ function Button({size, variant, color, disabled, startIcon, endIcon, disableShad
     
     }, [startIcon, endIcon]);
   return (
-    <ButtonItem size={size} autoFocus variant={variant} color={color} disabled={disabled} startIcon={startIcon} endIcon={endIcon} disableShadow={disableShadow} >
+    <ButtonItem size={size} autoFocus variant={variant} color={color} disabled startIcon={startIcon} endIcon={endIcon} disableShadow={disableShadow} >
         <p> Default </p>
         {(startIcon || endIcon) && <CustomTag sx={{height: "14px"}}/>}
     </ButtonItem>
