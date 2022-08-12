@@ -52,7 +52,7 @@ const ButtonItem = styled.button`
     (color === "danger" && themes.backgrounds.danger) ||
     (themes.backgrounds.default)
   )};
-  transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease-in-out;
   padding: ${({ size }) => (
     (size === "sm" && themes.sizes.sm) ||
     (size === "md" && themes.sizes.md) ||
